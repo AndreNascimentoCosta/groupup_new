@@ -48,23 +48,23 @@ class GUTheme {
       ),
       titleMedium: TextStyle(
         fontSize: 16,
-        color: GUColors.blackText,
+        color: GUColors.black,
         fontWeight: FontWeight.w700,
       ),
       titleLarge: TextStyle(
         fontSize: 24,
-        color: GUColors.blackText,
+        color: GUColors.black,
         fontWeight: FontWeight.w800,
       ),
       displayLarge: TextStyle(
         fontSize: 24,
-        color: GUColors.blackText,
+        color: GUColors.black,
         fontWeight: FontWeight.w600,
       ),
       displayMedium: TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.w600,
-        color: GUColors.blackText,
+        color: GUColors.black,
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
