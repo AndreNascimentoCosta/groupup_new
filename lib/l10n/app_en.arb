@@ -1,0 +1,798 @@
+{
+    "generalError": "Something went wrong",
+    "@generalError": {
+        "description": "A general error"
+    },
+    "createHS": "Create",
+    "@create": {
+        "description": "Create the Group - Home Screen"
+    },
+    "orHS": " or",
+    "@or": {
+        "description": "or"
+    },
+    "joinHS": " Join",
+    "@join": {
+        "description": "Join the Group - Home Screen"
+    },
+    "groupHS": " a group then",
+    "@groupHS": {
+        "description": "Group - Home Screen"
+    },
+    "challengeHS": " Challenge!",
+    "@challengeHS": {
+        "description": "Challenge - Home Screen"
+    },
+    "getStarted": "Get started",
+    "@getStarted": {
+        "description": "Get started button"
+    },
+    "continueApple": "Continue with Apple",
+    "@continueApple": {
+        "description": "Continue with apple button"
+    },
+    "continueGoogle": "Continue with Google",
+    "@continueGoogle": {
+        "description": "Continue with Google button"
+    },
+    "continuePhoneNumber": "Continue with phone number",
+    "@continuePhoneNumber": {
+        "description": "Continue with phone number button"
+    },
+    "continuePN": "Continue",
+    "@continuePN": {
+        "description": "Continue"
+    },
+    "phoneNumber": "Phone number",
+    "@phoneNumber": {
+        "description": "Phone number"
+    },
+    "verificationCode": "Verification code",
+    "@verificationCode": {
+        "description": "Verification code"
+    },
+    "next": "Next",
+    "@next": {
+        "description": "Next"
+    },
+    "codeSent": "Code is sent to {phoneControllerText}",
+    "@codeSent": {
+        "description": "Code sent to phone number",
+        "placeholders": {
+            "phoneControllerText": {
+                "type": "String"
+            }
+        }
+    },
+    "codeNotReceived": "Didn't receive a code?",
+    "@codeNotReceived": {
+        "description": "Code not received"
+    },
+    "waitingRequestAgain": "Request in {phoneProviderStart} sec",
+    "@waitingRequestAgain": {
+        "description": "Waiting for request again available",
+        "placeholders": {
+            "phoneProviderStart": {
+                "type": "int"
+            }
+        }
+    },
+    "requestAgain": "Request again",
+    "@requestAgain": {
+        "description": "Request code again"
+    },
+    "error": "Error",
+    "@error": {
+        "description": "Error"
+    },
+    "searchCountry": "Search country",
+    "@searchCountry": {
+        "description": "Search country in international phone field"
+    },
+    "invalidPhoneNumber": "Invalid phone number",
+    "@invalidPhoneNumber": {
+        "description": "Invalid phone number in international phone field"
+    },
+    "tooManyRequests": "Too many requests, try again \nlater",
+    "@tooManyRequests": {
+        "description": "Too many requests in otp code"
+    },
+    "invalidVerificationCode": "Invalid verification code",
+    "@invalidVerificationCode": {
+        "description": "Invalid verification code"
+    },
+    "name": "Name",
+    "@name": {
+        "description": "Name"
+    },
+    "nameValidatorAtLeast3Chars": "Name must be at least 3 characters",
+    "@nameValidatorAtLeast3Chars": {
+        "description": "Name must be at least 3 characters"
+    },
+    "enterName": "Enter your name",
+    "@enterName": {
+        "description": "Enter your name"
+    },
+    "groups": "Groups",
+    "@groups": {
+        "description": "Groups"
+    },
+    "selectAll": "Select all",
+    "@selectAll": {
+        "description": "Select all"
+    },
+    "pin": "Pin",
+    "@pin": {
+        "description": "Pin"
+    },
+    "delete": "Delete",
+    "@delete": {
+        "description": "Delete"
+    },
+    "ended": "Ended",
+    "@ended": {
+        "description": "Group ended"
+    },
+    "newGroup": "#NewGroup",
+    "@newGroup": {
+        "description": "New group when there's no group created or joined"
+    },
+    "createOrJoinAGroup": "Create or join a group",
+    "@createOrJoinAGroup": {
+        "description": "Create or join a group"
+    },
+    "joinAGroup": "Join a group",
+    "@joinAGroup": {
+        "description": "Join a group"
+    },
+    "createNewGroup": "Create a new group",
+    "@createNewGroup": {
+        "description": "Create a new group"
+    },
+    "pleaseEnterGroupCode": "Please enter group code",
+    "@pleaseEnterGroupCode": {
+        "description": "Enter group code when there's no character in the field"
+    },
+    "groupCode": "Group code",
+    "@groupCode": {
+        "description": "Group code"
+    },
+    "enterGroupCode": "Enter group code",
+    "@enterGroupCode": {
+        "description": "Enter group code label text"
+    },
+    "feeNotRefundable": "If group has a fee, this fee is non-refundable",
+    "@feeNotRefundable": {
+        "description": "Group fee is not refundable"
+    },
+    "invalidGroupCode": "Invalid group code",
+    "@invalidGroupCode": {
+        "description": "Invalid group code snackbar"
+    },
+    "groupAlreadyEnded": "This group has already ended",
+    "@groupAlreadyEnded": {
+        "description": "Group already ended snackbar"
+    },
+    "groupAlreadyFull": "This group is already full",
+    "@groupAlreadyFull": {
+        "description": "Group already full snackbar"
+    },
+    "userAlreadyInTheGroup": "You are already in this group",
+    "@userAlreadyInTheGroup": {
+        "description": "User already in the group snackbar"
+    },
+    "createGroup": "Create a group",
+    "@createGroup": {
+        "description": "Create a group"
+    },
+    "projectName": "Project name",
+    "@projectName": {
+        "description": "Project name"
+    },
+    "projectNameValidatorMinChars": "Project name must be at least 3 characters",
+    "@projectNameValidatorMinChars": {
+        "description": "Project name minimum chars"
+    },
+    "projectNameValidatorMaxChars": "Project name must be less than 20 characters",
+    "@projectNameValidatorMaxChars": {
+        "description": "Project name maximum chars"
+    },
+    "enterProjectName": "Enter project name",
+    "@enterProjectName": {
+        "description": "Enter project name"
+    },
+    "objective": "Objective",
+    "@objective": {
+        "description": "Objective of the group"
+    },
+    "objectiveValidatorMinChars": "Objective must be at least 3 characters",
+    "@objectiveValidatorMinChars": {
+        "description": "Objective minimum chars"
+    },
+    "objectiveValidatorMaxChars": "Objective must be less than 50 characters",
+    "@objectiveValidatorMaxChars": {
+        "description": "Objectiv maximum chars"
+    },
+    "enterObjective": "Enter objective",
+    "@enterObjective": {
+        "description": "Enter objective"
+    },
+    "currency": "Currency",
+    "@currency": {
+        "description": "Currency"
+    },
+    "search": "Search",
+    "@search": {
+        "description": "Search"
+    },
+    "feeGreaterThan": "Fee must be greater than {minValueCurrencies}",
+    "@feeGreaterThan": {
+        "description": "Fee must be greater than the picked currency",
+        "placeholders": {
+            "minValueCurrencies": {
+                "type": "String"
+            }
+        }
+    },
+    "groupFee": "Group fee",
+    "@groupFee": {
+        "description": "Group fee"
+    },
+    "groupDescriptionPaymentOn": "1. For the moment, the fee can only be paid in Brazilian Real, so make sure you can pay in that currency. \n2. The fee can be set to 0 and there will be no group reward. \n3. Each participant will pay the fee and the total amount will be used as the group reward. \n4. The fee is non-refundable. \n5. The dates and number of participants cannot be edited once a data has been added by a participant.",
+    "@groupDescriptionPaymentOn": {
+        "description": "Group fee description"
+    },
+    "groupDescription": "1. The dates and number of participants cannot be edited once a data has been added by a participant.",
+    "@groupDescription": {
+        "description": "Group fee description"
+    },
+    "maxParticipants": "Maximum of 50 participants.",
+    "@maxParticipants": {
+        "description": "Maximum participants in a group"
+    },
+    "numberParticipants": "Number of participants",
+    "@numberParticipants": {
+        "description": "Number of participants"
+    },
+    "enterNumber": "Enter a number",
+    "@enterNumber": {
+        "description": "Enter a number of participants"
+    },
+    "numberParticipantsValidatorMaxParticipants": "Number of participants cannot exceed 50",
+    "@numberParticipantsValidatorMaxParticipants": {
+        "description": "Maximum number of participants in a group"
+    },
+    "dates": "Dates",
+    "@dates": {
+        "description": "Dates of group"
+    },
+    "everyoneCanEditGroupPic": "Everyone can edit group picture",
+    "@everyoneCanEditGroupPic": {
+        "description": "Everyone can edit group picture switch"
+    },
+    "numberParticipantsValidatorMinParticipants": "Number of participants must be at least 1",
+    "@numberParticipantsValidatorMinParticipants": {
+        "description": "Minimum number of participants in a group"
+    },
+    "numberParticipantsValidatorMinParticipantsAfterGroupCreated": "Number of participants must be at least {participantsLength}",
+    "@numberParticipantsValidatorMinParticipantsAfterGroupCreated": {
+        "description": "Minimum number of participants in a group",
+        "placeholders": {
+            "participantsLength": {
+                "type": "int"
+            }
+        }
+    },
+    "selectDate": "Select date",
+    "@selectDate": {
+        "description": "Select date in date time picker"
+    },
+    "selectBothDates": "Select both dates",
+    "@selectBothDates": {
+        "description": "Select both dates in date time picker"
+    },
+    "endDateMustBeAfterStartDate": "Must be the same or after the start date",
+    "@endDateMustBeAfterStartDate": {
+        "description": "End date must be the same day of after the start date"
+    },
+    "startDate": "Start date",
+    "@startDate": {
+        "description": "Start date of date time picker"
+    },
+    "endDate": "End date",
+    "@endDate": {
+        "description": "Enda date of date time picker"
+    },
+    "confirm": "Confirm",
+    "@confirm": {
+        "description": "Confirm"
+    },
+    "confirmCreateGroup": "Are you sure you want to create a group?",
+    "@confirmCreateGroup": {
+        "description": "Confirmation to create the group"
+    },
+    "yes": "Yes",
+    "@yes": {
+        "description": "Yes"
+    },
+    "no": "No",
+    "@no": {
+        "description": "No"
+    },
+    "confirmExitGroup": "Are you sure you want to leave the group?",
+    "@confirmExitGroup": {
+        "description": "Confirmation to exit the group"
+    },
+    "confirmDeleteAccount": "Are you sure you want to delete your account?",
+    "@confirmDeleteAccount": {
+        "description": "Confirmation to delete account"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "Profile"
+    },
+    "balance": "Balance",
+    "@balance": {
+        "description": "Balance"
+    },
+    "createdGroups": "Created groups",
+    "@createdGroups": {
+        "description": "Created groups"
+    },
+    "editProfile": "Edit profile",
+    "@editProfile": {
+        "description": "Edit profile"
+    },
+    "reportProblem": "Report a problem",
+    "@reportProblem": {
+        "description": "Report a problem"
+    },
+    "privacyPolicy": "Privacy policy",
+    "@privacyPolicy": {
+        "description": "Privacy policy"
+    },
+    "deleteAccount": "Delete account",
+    "@deleteAccount": {
+        "description": "Delete account"
+    },
+    "logout": "Log out",
+    "@logout": {
+        "description": "Log out"
+    },
+    "chooseFromGallery": "Choose from gallery",
+    "@chooseFromGallery": {
+        "description": "Choose from gallery"
+    },
+    "takePhoto": "Take a photo",
+    "@takePhoto": {
+        "description": "Take a photo"
+    },
+    "done": "Done",
+    "@done": {
+        "description": "Done"
+    },
+    "nameValidatorMinChars": "Name must be at least 3 characters",
+    "@nameValidatorMinChars": {
+        "description": "Name minimum chars"
+    },
+    "nameValidatorMaxChars": "Name must be less than 30 characters",
+    "@nameValidatorMaxChars": {
+        "description": "Name maximum chars"
+    },
+    "noCreatedGroups": "No created groups",
+    "@noCreatedGroups": {
+        "description": "No created groups"
+    },
+    "totalBalance": "Total balance",
+    "@totalBalance": {
+        "description": "Total balance"
+    },
+    "add": "Add",
+    "@add": {
+        "description": "Add"
+    },
+    "withdraw": "Withdraw",
+    "@withdraw": {
+        "description": "Withdraw"
+    },
+    "ongoing": "Ongoing",
+    "@ongoing": {
+        "description": "Ongoing"
+    },
+    "start": "Start",
+    "@start": {
+        "description": "Start"
+    },
+    "end": "End",
+    "@end": {
+        "description": "End"
+    },
+    "me": "Me",
+    "@me": {
+        "description": "Me"
+    },
+    "reward": "Reward",
+    "@reward": {
+        "description": "Reward"
+    },
+    "rewardValidatorMinChars": "Reward must be at least 3 characteres",
+    "@rewardValidatorMinChars": {
+        "description": "Reward minimum chars"
+    },
+    "rewardValidatorMaxChars": "Reward must be less than 50 characters",
+    "@rewardValidatorMaxChars": {
+        "description": "Reward maximum chars"
+    },
+    "changeGroupReward": "Change group reward",
+    "@changeGroupReward": {
+        "description": "Change group reward"
+    },
+    "dataValidated": "Done! You validated this data!",
+    "@dataValidated": {
+        "description": "Data validated"
+    },
+    "dataInvalidated": "Done! You invalidated this data!",
+    "@dataInvalidated": {
+        "description": "Data invalidated"
+    },
+    "groupEnded": "Group ended",
+    "@groupEnded": {
+        "description": "Group ended"
+    },
+    "winnerWonPayment": "The winner won {groupCurrencySymbol} {groupReward}",
+    "@winnerWonPayment": {
+        "description": "Winner won",
+        "placeholders": {
+            "groupCurrencySymbol": {
+                "type": "String"
+            },
+            "groupReward": {
+                "type": "String"
+            }
+        }
+    },
+    "winnerWon": "The winner won {groupReward}",
+    "@winnerWon": {
+        "description": "Winner won",
+        "placeholders": {
+            "groupReward": {
+                "type": "String"
+            }
+        }
+    },
+    "youCantDoThis": "You can't do this",
+    "@youCantDoThis": {
+        "description": "You can't do this"
+    },
+    "cantAddDataWhenNotEveryoneHasJoined": "To add data, you have to wait \nfor everyone to join the group.",
+    "@cantAddDataWhenNotEveryoneHasJoined": {
+        "description": "Can't add data when not everyone has joined"
+    },
+    "data": "Data",
+    "@data": {
+        "description": "Data"
+    },
+    "dataAddData": "Data:",
+    "@dataAddData": {
+        "description": "Data:"
+    },
+    "dateAddData": "Date:",
+    "@dateAddData": {
+        "description": "Date:"
+    },
+    "enterData": "Enter data",
+    "@enterData": {
+        "description": "Enter data"
+    },
+    "dataValidatorMaxNum": "Data must be less than 99999",
+    "@dataValidatorMaxNum": {
+        "description": "Data maximum number"
+    },
+    "dataHistory": "Data history",
+    "@dataHistory": {
+        "description": "Data history"
+    },
+    "values": "Values",
+    "@values": {
+        "description": "Values"
+    },
+    "groupSettings": "Group settings",
+    "@groupSettings": {
+        "description": "Group settings"
+    },
+    "reportParticipant": "Report participant",
+    "@reportParticipant": {
+        "description": "Report participant"
+    },
+    "cantChangeDatesWhenParticipantAddedData": "A participant has already added \ndata. You can't change the dates anymore.",
+    "@cantChangeDatesWhenParticipantAddedData": {
+        "description": "Can't change dates when participant was added"
+    },
+    "cantChangeNumberParticipantsWhenParticipantAddedData": "A participant has already added \ndata. You can't change the number of participants anymore.",
+    "@cantChangeNumberParticipantsWhenParticipantAddedData": {
+        "description": "Can't change number of participants when participant was added"
+    },
+    "shareGroupCodeText": "Join my group {groupsProjectName} on GroupUp! \nThe code is {groupsGroupCode}",
+    "@shareGroupCodeText": {
+        "description": "Share group code text",
+        "placeholders": {
+            "groupsProjectName": {
+                "type": "String"
+            },
+            "groupsGroupCode": {
+                "type": "String"
+            }
+        }
+    },
+    "exitGroup": "Exit group",
+    "@exitGroup": {
+        "description": "Exit group"
+    },
+    "changeGroupDates": "Change group dates",
+    "@changeGroupDates": {
+        "description": "Change group dates"
+    },
+    "participants": "Participants",
+    "@participants": {
+        "description": "Participants"
+    },
+    "changeNumberParticipants": "Change number of participants",
+    "@changeNumberParticipants": {
+        "description": "Change number of participants"
+    },
+    "groupObjective": "Group objective",
+    "@groupObjective": {
+        "description": "Group objective"
+    },
+    "changeGroupObjective": "Change group objective",
+    "@changeGroupObjective": {
+        "description": "Change group objective"
+    },
+    "groupName": "Group name",
+    "@groupName": {
+        "description": "Group name"
+    },
+    "changeGroupName": "Change group name",
+    "@changeGroupName": {
+        "description": "Change group name"
+    },
+    "mailReportParticipant": "subject=Report a problem&body=I would like to report {participantName} ({participantUid}) from the group {groupProjectName} ({groupId}) for the following reason: ",
+    "@mailReportParticipant": {
+        "description": "Mail report participant",
+        "placeholders": {
+            "participantName": {
+                "type": "String"
+            },
+            "participantUid": {
+                "type": "String"
+            },
+            "groupProjectName": {
+                "type": "String"
+            },
+            "groupId": {
+                "type": "String"
+            }
+        }
+    },
+    "infoReportParticipant": "Info: If a participant is reported by majority, after the report is analysed and approved, this person will be removed from the group (This only works when there are at least 3 participants in the group.)",
+    "@infoReportParticipant": {
+        "description": "Info report participant"
+    },
+    "addMedia": "Add photo or video",
+    "@addMedia": {
+        "description": "Add media"
+    },
+    "validateMediaText": "Validate your data by adding \na media. If the majority of the \ngroup validates, your data will be \ntaken into account.",
+    "@validateMediaText": {
+        "description": "Validate media text"
+    },
+    "cancel": "Cancel",
+    "@cancel": {
+        "description": "Cancel"
+    },
+    "discardChangesQuestion": "Discard changes?",
+    "@discardChangesQuestion": {
+        "description": "Discard changes question"
+    },
+    "areYouSureToDiscardChanges": "Are you sure you want to lose your changes?",
+    "@areYouSureToDiscardChanges": {
+        "description": "Are you sure to discard changes"
+    },
+    "yesDiscard": "Yes, discard",
+    "@yesDiscard": {
+        "description": "Yes, discard"
+    },
+    "noKeep": "No, keep",
+    "@noKeep": {
+        "description": "No, keep"
+    },
+    "choosePicture": "Choose a picture",
+    "@choosePicture": {
+        "description": "Choose a picture"
+    },
+    "none": "None",
+    "@none": {
+        "description": "None"
+    },
+    "completed": "Completed",
+    "@completed": {
+        "description": "Completed"
+    },
+    "createConnectedAccount": "Create Connected account",
+    "@createConnectedAccount": {
+        "description": "Create Connected account"
+    },
+    "createConnectedAccountText": "Create an account, fill the \nform and add your bank \naccount to receive payouts.",
+    "@createConnectedAccountText": {
+        "description": "Create Connected account text"
+    },
+    "createAccount": "Create account",
+    "@createAccount": {
+        "description": "Create account"
+    },
+    "connectedAccount": "Connected account",
+    "@connectedAccount": {
+        "description": "Connected account"
+    },
+    "chooseOption": "Choose an option",
+    "@chooseOption": {
+        "description": "Choose an option"
+    },
+    "loginToYourConnectedAccount": "Login to your Connected \naccount",
+    "@loginToYourConnectedAccount": {
+        "description": "Login to your Connected account"
+    },
+    "loginToYourConnectedAccountText": "Are you sure you want to login \nto your Connected account? \nYou will be redirected to a new \npage",
+    "deleteConnectedAccount": "Delete Connected account",
+    "@deleteConnectedAccount": {
+        "description": "Delete Connected account"
+    },
+    "deleteConnectedAccountText": "Are you sure you want to delete \nyour Connected account?",
+    "@deleteConnectedAccountText": {
+        "description": "Delete Connected account text"
+    },
+    "requestPayout": "Request a payout",
+    "@requestPayout": {
+        "description": "Request a payout"
+    },
+    "requestPayoutText": "Are you sure you want to \nrequest a payout? \nAll the money in your balance \nwill be sent to your bank account \nof your connected account within one business day.",
+    "@requestPayoutText": {
+        "description": "Request a payout text"
+    },
+    "connectedAccountDeleted": "Your Connected account has been deleted.",
+    "@connectedAccountDeleted": {
+        "description": "Connected account deleted"
+    },
+    "resumeAccountCreation": "Resume account creation",
+    "@resumeAccountCreation": {
+        "description": "Resume account creation"
+    },
+    "redirecting": "Redirecting...",
+    "@redirecting": {
+        "description": "Redirecting"
+    },
+    "options": "Options",
+    "@options": {
+        "description": "Options"
+    },
+    "balanceZero": "Your balance is 0",
+    "@balanceZero": {
+        "description": "Balance is zero"
+    },
+    "tieBreaker": "Tiebreaker",
+    "@tieBreaker": {
+        "description": "Tiebreaker"
+    },
+    "tieBreakerText": "The group ended in a draw. \nThe participants who tied have one day to break the tie by adding data. The data will go through the validation process. If none data is added, the participant who joined the group first will be the winner.",
+    "@tieBreakerText": {
+        "description": "Tiebreaker text"
+    },
+    "savedCards": "Saved cards",
+    "@savedCards": {
+        "description": "Saved cards"
+    },
+    "noSavedCards": "No saved cards",
+    "@noSavedCards": {
+        "description": "No saved cards"
+    },
+    "expDate": "Exp. date",
+    "@expDate": {
+        "description": "Exp. date"
+    },
+    "confirmCard": "Are you sure you want pay with \nthis card?",
+    "@confirmCard": {
+        "description": "Confirm card"
+    },
+    "startEndDate": "Start - End date",
+    "@startEndDate": {
+        "description": "Start - End date"
+    },
+    "paymentInterrupted": "Payment interrupted, try again",
+    "@paymentInterrupted": {
+        "description": "Payment interrupted"
+    },
+    "important": "Important",
+    "@important": {
+        "description": "Important"
+    },
+    "allowPhotoAccess": "You need to allow photo access",
+    "@allowPhotoAccess": {
+        "description": "Allow photo access"
+    },
+    "failedPickImage": "Failed to pick image",
+    "@failedPickImage": {
+        "description": "Failed to pick image"
+    },
+    "noParticipants": "No participants",
+    "@noParticipants": {
+        "description": "No participants"
+    },
+    "cantAddDataInValidationPeriod": "You can't add data during the validation period",
+    "@cantAddDataInReviewTime": {
+        "description": "Cant add data in validation period"
+    },
+    "claimReward": "Claim reward",
+    "@claimReward": {
+        "description": "Claim reward"
+    },
+    "rewardAlreadyClaimed": "Reward already claimed",
+    "@rewardAlreadyClaimed": {
+        "description": "Reward already claimed"
+    },
+    "rewardClaimedText": "Your reward has been claimed",
+    "@rewardClaimedText": {
+        "description": "Reward claimed text"
+    },
+    "payoutSuccessful": "Payout made successfully, login to your Connected account to see the details.",
+    "@payoutSuccessful": {
+        "description": "Payout successful"
+    },
+    "enterReward": "Enter reward",
+    "@enterReward": {
+        "description": "Enter reward"
+    },
+    "update": "Update",
+    "@update": {
+        "description": "Update"
+    },
+    "updateText": "A new version of GroupUp is available. Please update to continue using the app.",
+    "@updateText": {
+        "description": "Update text"
+    },
+    "noData": "No data",
+    "@noData": {
+        "description": "No data"
+    },
+    "createOrJoinAGroupOnboardingText": "You can join an existing group or create one by setting an objective and reward",
+    "@createOrJoinAGroupOnboardingText": {
+        "description": "Create or join a group onboarding text"
+    },
+    "addDataAndPhotoOnboarding": "Track your progress with data and photos",
+    "@addDataAndPhotoOnboarding": {
+        "description": "Add data and photo onboarding"
+    },
+    "addDataAndPhotoOnboardingText": "Once you're in a group, submit your data and photos as proof of your progress",
+    "@addDataAndPhotoOnboardingText": {
+        "description": "Add data and photo onboarding text"
+    },
+    "validateDataOnboarding": "Validate your friends' progress",
+    "@validateDataOnboarding": {
+        "description": "Validate data onboarding"
+    },
+    "validateDataOnboardingText": "Review their data, and determine whether or not the photo provided is a good representation of the data submitted",
+    "@validateDataOnboardingText": {
+        "description": "Validate data onboarding text"
+    },
+    "winRewardOnboarding": "Win the reward",
+    "@winRewardOnboarding": {
+        "description": "Win reward onboarding"
+    },
+    "winRewardOnboardingText": "The user with the highest value at the end of the challenge will be the winner and will receive the reward",
+    "@winRewardOnboardingText": {
+        "description": "Win reward onboarding text"
+    },
+    "skip": "Skip",
+    "@skip": {
+        "description": "Skip"
+    }
+}
